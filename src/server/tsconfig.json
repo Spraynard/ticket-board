@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"pretty": true,
+		"sourceMap": true,
+		"target": "ES6",
+		"outDir": "../../dist/server",
+		"lib" : [ "dom", "ES2015", "ES7" ]
+	}
+}

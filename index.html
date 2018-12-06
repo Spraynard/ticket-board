@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ticket Board</title>
+	<link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+</head>
+<body>
+	<section class="ticket-request-form-section">
+		<form id="ticket-request-form" method="POST" action="/obtain-tickets">
+			<div class="input-container">
+				<label for="username-input">Username:</label>
+				<input id="username-input" name="username" type="text" placeholder="Username"/>
+			</div><!-- /.input-container -->
+			<div class="input-container">
+				<label for="password-input">Password:</label>
+				<input id="password-input" name="password" type="password" placeholder="Password"/>
+			</div><!-- /.input-container -->
+			<input type="submit" value="Submit"/>
+		</form><!-- /form -->
+	</section>
+	<section id="ticket-data-section">
+	</section><!-- /.ticket-data-section -->
+</body>
+<script type="text/javascript" src="/dist/client/form_handler.js"></script>
+</html>

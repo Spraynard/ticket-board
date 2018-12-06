@@ -1,0 +1,30 @@
+{
+  "name": "eTools Ticket Board",
+  "version": "0.0.1",
+  "description": "A ticket board showing all tickets for a site, based on configuration or input from the web",
+  "main": "./src/server/server.js",
+  "scripts": {
+    "build-server": "tsc -p ./src/server",
+    "build-client": "tsc -p ./src/client",
+    "watch-server": "tsc -w -p ./src/server",
+    "watch-client": "tsc -w -p ./src/client",
+    "dev": "npm run build-client && npm run build-server && node dist/server/server.js",
+    "test": "./node_modules/.bin/jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/jquery": "^3.3.22",
+    "@types/jsdom": "^11.12.0",
+    "@types/request": "^2.48.1",
+    "jest": "^23.6.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^12.2.0",
+    "request": "^2.88.0",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1",
+  },
+  "dependencies": {}
+}
